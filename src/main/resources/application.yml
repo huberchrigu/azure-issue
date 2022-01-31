@@ -1,0 +1,9 @@
+azure:
+  activedirectory:
+    client-id: <client-id>
+    client-secret: <client-secret>
+    tenant-id: <tenant-id>
+    authorization-clients:
+      graph:
+        scopes:
+          - https://graph.microsoft.com/User.ReadWrite.All
